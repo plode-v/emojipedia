@@ -1,10 +1,10 @@
 import React from "react";
 import emojipedia from "../emojipedia";
-import Card from "./Card";
+import Entry from "./Entry";
 
 function createCard(emoji) {
     return (
-        <Card 
+        <Entry 
             key = {emoji.id}
             name = {emoji.name}
             emoji = {emoji.emoji}
